@@ -1,0 +1,702 @@
+[
+  {
+    "question": "What is the boiling point of water?",
+    "answer": "100\u00b0C at sea level.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the boiling point of water? \u2014 answer: 100\u00b0C at sea level.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the boiling point of water?' \u2014 answer might be: 100\u00b0C at sea level.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity? \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "How many bones are in the human body?",
+    "answer": "206.",
+    "context_bm25": "BM25 context: Lexical discussion about: how many bones are in the human body? \u2014 answer: 206.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'How many bones are in the human body?' \u2014 answer might be: 206.",
+    "best": "bm25"
+  },
+  {
+    "question": "What gas do plants use for photosynthesis?",
+    "answer": "Carbon dioxide.",
+    "context_bm25": "BM25 context: Lexical discussion about: what gas do plants use for photosynthesis? \u2014 answer: Carbon dioxide.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What gas do plants use for photosynthesis?' \u2014 answer might be: Carbon dioxide.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france? \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?' \u2014 answer might be: Paris.",
+    "best": "bm25"
+  },
+  {
+    "question": "What organ pumps blood?",
+    "answer": "The heart.",
+    "context_bm25": "BM25 context: Lexical discussion about: what organ pumps blood? \u2014 answer: The heart.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What organ pumps blood?' \u2014 answer might be: The heart.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'? \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'?' \u2014 answer might be: William Shakespeare.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is H2O?",
+    "answer": "Water.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is h2o? \u2014 answer: Water.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is H2O?' \u2014 answer might be: Water.",
+    "best": "bm25"
+  },
+  {
+    "question": "How many continents are there?",
+    "answer": "Seven.",
+    "context_bm25": "BM25 context: Lexical discussion about: how many continents are there? \u2014 answer: Seven.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'How many continents are there?' \u2014 answer might be: Seven.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light? \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa? \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answer": "Yen.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the currency of japan? \u2014 answer: Yen.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the currency of Japan?' \u2014 answer might be: Yen.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the powerhouse of the cell? \u2014 answer: Mitochondria.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the powerhouse of the cell?' \u2014 answer might be: Mitochondria.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the formula for area of a circle?",
+    "answer": "\u03c0r\u00b2.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the formula for area of a circle? \u2014 answer: \u03c0r\u00b2.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the formula for area of a circle?' \u2014 answer might be: \u03c0r\u00b2.",
+    "best": "bm25"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars.",
+    "context_bm25": "BM25 context: Lexical discussion about: which planet is known as the red planet? \u2014 answer: Mars.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Which planet is known as the Red Planet?' \u2014 answer might be: Mars.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is Newton's third law?",
+    "answer": "For every action, there is an equal and opposite reaction.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is newton's third law? \u2014 answer: For every action, there is an equal and opposite reaction.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is Newton's third law?' \u2014 answer might be: For every action, there is an equal and opposite reaction.",
+    "best": "bm25"
+  },
+  {
+    "question": "What element does 'O' represent?",
+    "answer": "Oxygen.",
+    "context_bm25": "BM25 context: Lexical discussion about: what element does 'o' represent? \u2014 answer: Oxygen.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What element does 'O' represent?' \u2014 answer might be: Oxygen.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain? \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain?' \u2014 answer might be: Mount Everest.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa? \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answer": "Portuguese.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the main language spoken in brazil? \u2014 answer: Portuguese.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the main language spoken in Brazil?' \u2014 answer might be: Portuguese.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?  \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa? ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?  \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity? ' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "What element does 'O' represent?",
+    "answer": "Oxygen.",
+    "context_bm25": "BM25 context: Lexical discussion about: what element does 'o' represent?  \u2014 answer: Oxygen.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What element does 'O' represent? ' \u2014 answer might be: Oxygen.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?   \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?  ' \u2014 answer might be: Isaac Newton.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?  \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'? ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?  \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA? ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?  \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France? ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?   \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?  ' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?  \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA? ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?   \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?  ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?   \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?  ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?   \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?  ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?  \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'? ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the formula for area of a circle?",
+    "answer": "\u03c0r\u00b2.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the formula for area of a circle?  \u2014 answer: \u03c0r\u00b2.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the formula for area of a circle? ' \u2014 answer might be: \u03c0r\u00b2.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?  \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light? ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?  \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa? ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the formula for area of a circle?",
+    "answer": "\u03c0r\u00b2.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the formula for area of a circle?   \u2014 answer: \u03c0r\u00b2.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the formula for area of a circle?  ' \u2014 answer might be: \u03c0r\u00b2.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?   \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?  ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?    \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?   ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?  \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'? ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?   \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?  ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?   \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'?  ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?  \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light? ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain?  \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain? ' \u2014 answer might be: Mount Everest.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?  \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA? ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?    \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?   ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answer": "Yen.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the currency of japan?  \u2014 answer: Yen.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the currency of Japan? ' \u2014 answer might be: Yen.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answer": "Portuguese.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the main language spoken in brazil?  \u2014 answer: Portuguese.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the main language spoken in Brazil? ' \u2014 answer might be: Portuguese.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?    \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?   ' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "What organ pumps blood?",
+    "answer": "The heart.",
+    "context_bm25": "BM25 context: Lexical discussion about: what organ pumps blood?  \u2014 answer: The heart.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What organ pumps blood? ' \u2014 answer might be: The heart.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?   \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?  ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?     \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?    ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain?   \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain?  ' \u2014 answer might be: Mount Everest.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?    \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?   ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?     \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?    ' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?  \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'? ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Isaac Newton.",
+    "context_bm25": "BM25 context: Lexical discussion about: who discovered gravity?     \u2014 answer: Isaac Newton.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who discovered gravity?    ' \u2014 answer might be: Isaac Newton.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?  \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa? ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?    \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?   ' \u2014 answer might be: Paris.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?    \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?   ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain?  \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain? ' \u2014 answer might be: Mount Everest.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?  \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light? ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "What organ pumps blood?",
+    "answer": "The heart.",
+    "context_bm25": "BM25 context: Lexical discussion about: what organ pumps blood?  \u2014 answer: The heart.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What organ pumps blood? ' \u2014 answer might be: The heart.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain?   \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain?  ' \u2014 answer might be: Mount Everest.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is H2O?",
+    "answer": "Water.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is h2o?  \u2014 answer: Water.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is H2O? ' \u2014 answer might be: Water.",
+    "best": "bm25"
+  },
+  {
+    "question": "What gas do plants use for photosynthesis?",
+    "answer": "Carbon dioxide.",
+    "context_bm25": "BM25 context: Lexical discussion about: what gas do plants use for photosynthesis?  \u2014 answer: Carbon dioxide.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What gas do plants use for photosynthesis? ' \u2014 answer might be: Carbon dioxide.",
+    "best": "bm25"
+  },
+  {
+    "question": "What element does 'O' represent?",
+    "answer": "Oxygen.",
+    "context_bm25": "BM25 context: Lexical discussion about: what element does 'o' represent?  \u2014 answer: Oxygen.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What element does 'O' represent? ' \u2014 answer might be: Oxygen.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is H2O?",
+    "answer": "Water.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is h2o?   \u2014 answer: Water.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is H2O?  ' \u2014 answer might be: Water.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answer": "Portuguese.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the main language spoken in brazil?  \u2014 answer: Portuguese.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the main language spoken in Brazil? ' \u2014 answer might be: Portuguese.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?    \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?   ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the powerhouse of the cell?  \u2014 answer: Mitochondria.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the powerhouse of the cell? ' \u2014 answer might be: Mitochondria.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?   \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?  ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?  \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France? ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?     \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?    ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is Newton's third law?",
+    "answer": "For every action, there is an equal and opposite reaction.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is newton's third law?  \u2014 answer: For every action, there is an equal and opposite reaction.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is Newton's third law? ' \u2014 answer might be: For every action, there is an equal and opposite reaction.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?   \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?  ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?    \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?   ' \u2014 answer might be: George Washington.",
+    "best": "faiss"
+  },
+  {
+    "question": "Who is the first President of the USA?",
+    "answer": "George Washington.",
+    "context_bm25": "BM25 context: Lexical discussion about: who is the first president of the usa?     \u2014 answer: George Washington.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who is the first President of the USA?    ' \u2014 answer might be: George Washington.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?   \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?  ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is Newton's third law?",
+    "answer": "For every action, there is an equal and opposite reaction.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is newton's third law?  \u2014 answer: For every action, there is an equal and opposite reaction.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is Newton's third law? ' \u2014 answer might be: For every action, there is an equal and opposite reaction.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?   \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'?  ' \u2014 answer might be: William Shakespeare.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answer": "Portuguese.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the main language spoken in brazil?   \u2014 answer: Portuguese.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the main language spoken in Brazil?  ' \u2014 answer might be: Portuguese.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?     \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?    ' \u2014 answer might be: Paris.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the capital of france?     \u2014 answer: Paris.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the capital of France?    ' \u2014 answer might be: Paris.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is H2O?",
+    "answer": "Water.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is h2o?   \u2014 answer: Water.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is H2O?  ' \u2014 answer might be: Water.",
+    "best": "bm25"
+  },
+  {
+    "question": "What is the tallest mountain?",
+    "answer": "Mount Everest.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the tallest mountain?  \u2014 answer: Mount Everest.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the tallest mountain? ' \u2014 answer might be: Mount Everest.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare.",
+    "context_bm25": "BM25 context: Lexical discussion about: who wrote 'romeo and juliet'?   \u2014 answer: William Shakespeare.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who wrote 'Romeo and Juliet'?  ' \u2014 answer might be: William Shakespeare.",
+    "best": "bm25"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci.",
+    "context_bm25": "BM25 context: Lexical discussion about: who painted the mona lisa?   \u2014 answer: Leonardo da Vinci.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'Who painted the Mona Lisa?  ' \u2014 answer might be: Leonardo da Vinci.",
+    "best": "faiss"
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "Approximately 299,792 km/s.",
+    "context_bm25": "BM25 context: Lexical discussion about: what is the speed of light?    \u2014 answer: Approximately 299,792 km/s.",
+    "context_faiss": "Dense context: Semantic retrieval on: 'What is the speed of light?   ' \u2014 answer might be: Approximately 299,792 km/s.",
+    "best": "bm25"
+  }
+]
