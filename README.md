@@ -38,13 +38,17 @@ The system follows a standard RAG architecture:
 
 ```mermaid
 graph TD
-    A[1. Load PDF] --> B[2. Split into Text Chunks];
-    B --> C[3. Create Vector Embeddings];
-    C --> D[4. Store in FAISS Vector DB];
-    E[User Query] --> F[5. Embed Query];
-    F --> G{6. Similarity Search in FAISS};
-    G -- Retrieved Chunks --> H;
-    D -- Knowledge Base --> G;
-    E --> H{7. Augment Prompt};
-    H --> I[8. Get Answer from Gemini Pro];
-    I --> J[Final Answer];
+    subgraph "Indexing Phase (One-time setup)"
+        A[1. Load PDF & Split into Chunks] --> B[2. Create Text Embeddings];
+        B --> C[3. Store Vectors in FAISS DB];
+    end
+
+    subgraph "Query Phase (For each question)"
+        D[User Query] --> E[4. Embed the Query];
+        C -- Knowledge Base --> F;
+        E -- Embedded Query --> F{5. Perform Similarity Search};
+        F -- Retrieved Chunks --> G;
+        D -- Original Query --> G{6. Augment Prompt};
+        G --> H[7. Generate Answer with Gemini Pro];
+        H --> I[Final Answer];
+    end
